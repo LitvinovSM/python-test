@@ -3,6 +3,6 @@ repos:
     rev: v0.17.1      # подставь актуальную версию, см. ниже
     hooks:
       - id: ruff-check
-        args: [--fix] # подставь актуальную версию, см. ниже
+        args: [--fix]
       - id: ruff-format
         args: [--check]
