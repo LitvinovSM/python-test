@@ -24,4 +24,7 @@ dev = [
 ]
 
 [tool.ruff.lint]
-extend-select = ["I", "N", "UP", "B"]
+extend-select = ["I", "N", "UP", "B"] # Провекри линтера, которые включены
+
+[tool.pytest.ini_options]
+testpaths = ["tests"] # Путь до пакета с тестами pytest
