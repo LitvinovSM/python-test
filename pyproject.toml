@@ -24,6 +24,8 @@ dev = [
 ]
 
 [tool.mypy]
+mypy_path = "src"
+explicit_package_bases = true
 files = ["src", "tests"]
 
 [tool.ruff.lint]
