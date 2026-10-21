@@ -6,7 +6,7 @@ def test_is_valid_login_none():
 
 
 def test_is_valid_login_empty():
-    assert not is_valid_login("")
+    assert not is_valid_login(" ")
 
 
 def test_is_valid_login_20():
